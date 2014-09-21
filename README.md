@@ -1,4 +1,8 @@
 base-front-end-project
 ======================
 
-A useful front-end base project which includes inuitcss, jquery and handlebars, along with a HTML5 boilerplate to help you get started.
+A useful front-end base project. A little SCSS framework is included along with a mini jQuery starting point. A HTML5 boilerplate is added for good measure too.
+
+Please only use as a base. 
+
+[andy-bell.co.uk](http://andy-bell.co.uk)
