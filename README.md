@@ -38,3 +38,5 @@ SCSS Structure
 	- **_typography.scss** - All typography vars such as fonts, base font sizes etc. live here
 	- **_color.scss** - All color vars live here
 	- **_generic.scss** - All generic vars that don't fit into the other groups live here
+	
+- **global.scss** - This is the file that compiles to global.css. This file should only feature global styles such as body, html and wrapper etc. This file also imports the framework, components and layouts.
