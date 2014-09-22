@@ -1,16 +1,26 @@
 /*------------------------------------*\
     BREAKPOINTS
 \*------------------------------------*/
-
-$breakpoint--palm: "max-width: 683px";
-$breakpoint--lap: "max-width: 999px";
-$breakpoint--desk: "min-width: 1000px";
-$breakpoint--desk--wide: "min-width: 1300px";
-$breakpoint--lap-and-up: "min-width: 684px";
+$breakpoint--palm: "(max-width: 683px)" !default;
+$breakpoint--portable: "(max-width: 999px)" !default;
+$breakpoint--lap: "(min-width: 684px) and (max-width: 999px)" !default;
+$breakpoint--desk: "(min-width: 1000px)" !default;
+$breakpoint--desk--wide: "(min-width: 1300px)" !default;
+$breakpoint--lap-and-up: "(min-width: 684px)" !default;
 
 /*------------------------------------*\
     TYPOGRAPHY
 \*------------------------------------*/
-$base-font-size: 16px;
-$base-line-height-ratio: 1.7;
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size: 16px !default;
+$base-line-height-ratio: 1.7 !default;
+$base-font-family: Helvetica, Arial, sans-serif !default;
+
+/*------------------------------------*\
+    GRID SYSTEM VARS
+\*------------------------------------*/
+$grid--responsive: true !default;
+$grid--mobile-first: true !default;
+$grid--gutter: 20px !default;
+$grid--use-silent-classes: true !default;
+$grid--push: false !default;
+$grid--pull: false !default;

@@ -38,12 +38,12 @@
 	@if($calculated-breakpoint != "") {
 		
 		@if($screen-only == true) {
-			@media screen and ($calculated-breakpoint) {
+			@media screen and #{$calculated-breakpoint} {
 				@content;
 			}
 		}
 		@else {
-			@media all and ($calculated-breakpoint) {
+			@media all and #{$calculated-breakpoint} {
 				@content;
 			}
 		}

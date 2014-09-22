@@ -1,4 +1,10 @@
 /*------------------------------------*\
+    VARS
+\*------------------------------------*/
+@import "../project/vars/metrics";
+@import "../project/vars/typography";
+
+/*------------------------------------*\
     MIXINS
 \*------------------------------------*/
 @import "mixins/font-size";
@@ -11,4 +17,4 @@
     BASE
 \*------------------------------------*/
 @import "base/reset";
-@import "base/defaults";
+@import "base/csswizardry-grids";

@@ -1,8 +1,7 @@
 /*------------------------------------*\
-    IMPORT FRAMEWORK AND VARS
+    IMPORT FRAMEWORK
 \*------------------------------------*/
-@import "../framework/framework";
-@import "vars";
+@import "../framework/build";
 
 
 /*------------------------------------*\
@@ -12,4 +11,41 @@
 body {
 	font-size: $base-font-size;
 	font-family: $base-font-family;
+	min-width: $site-min-width;
 }
+
+.wrapper {
+	max-width: $site-max-width;
+	margin: 0 auto;
+	padding: 0 $gutter;
+	
+	@include media-query("desk") {
+		width: $site-max-width;
+	}
+}
+
+.grid {
+	@extend %grid;
+
+	&__item {
+		@extend %grid__item;
+		@extend %desk--one-quarter;
+		@extend %lap--one-half;
+	}
+	
+	&__inner {
+		background: grey;
+		color: red;
+	}
+}
+
+
+/*------------------------------------*\
+    COMPONENTS
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    LAYOUTS
+\*------------------------------------*/
