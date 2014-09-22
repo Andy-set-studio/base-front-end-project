@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    VENDOR
+    
+    This mixin will vendor prefix your CSS3 properties. 
+    
+    Usage example:
+    
+    body {
+    	@include vendor("transform", translateX(10%));
+    }
+\*------------------------------------*/
+@mixin vendor($key, $value) {
+	-moz-#{$key}: $value;
+	-webkit-#{$key}: $value;
+	-o-#{$key}: $value;
+	-ms-#{$key}: $value;
+	#{$key}: $value;
+}

@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    IMPORT FRAMEWORK AND VARS
+\*------------------------------------*/
+@import "../framework/framework";
+@import "vars";
+
+
+/*------------------------------------*\
+    ADD SOME GLOBAL STYLES
+\*------------------------------------*/
+
+body {
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+}
