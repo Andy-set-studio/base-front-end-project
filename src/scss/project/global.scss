@@ -24,22 +24,6 @@ body {
 	}
 }
 
-.grid {
-	@extend %grid;
-
-	&__item {
-		@extend %grid__item;
-		@extend %desk--one-quarter;
-		@extend %lap--one-half;
-	}
-	
-	&__inner {
-		background: grey;
-		color: red;
-	}
-}
-
-
 /*------------------------------------*\
     COMPONENTS
 \*------------------------------------*/
