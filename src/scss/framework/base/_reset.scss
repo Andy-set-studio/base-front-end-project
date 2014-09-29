@@ -1,19 +1,19 @@
-html, body, h1, h2, h3, h4, h5, p, ul, ol, li, dd, header, nav, article, section, 
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dd, header, nav, article, section, 
 aside, figure, figcaption, footer {
-	margin:0px;
-	padding:0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 ul, ol {
-	list-style:none;
+	list-style: none;
 }
 
 img {
-	border:0;
+	border: 0;
 }
 
 a {
-	text-decoration:none;
+	text-decoration: none;
 	
 	&:hover,
 	&:focus {
@@ -22,7 +22,10 @@ a {
 }
 
 // Firefox input fix
-input::-moz-focus-inner{ border:0;padding: 0;}
+input::-moz-focus-inner { 
+	border: 0;
+	padding: 0;
+}
 
 
 // Box sizing border box FTW! 
@@ -31,9 +34,9 @@ input::-moz-focus-inner{ border:0;padding: 0;}
 }
 
 
-// Legacy browsers need HTML elements to display as block
+// Legacy browsers need HTML5 elements to display as block
 .lt-ie9 {
 	header, nav, article, section, aside, figure, figcaption, footer, main {
-		display:block
+		display: block;
 	} 
 }
