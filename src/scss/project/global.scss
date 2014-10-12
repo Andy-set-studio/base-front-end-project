@@ -25,11 +25,20 @@ body {
 }
 
 /*------------------------------------*\
+    MIXINS
+\*------------------------------------*/
+
+//@import "mixins/your-mixin"; <-- file would be _your-mixin.scss
+
+/*------------------------------------*\
     COMPONENTS
 \*------------------------------------*/
 
+//@import "components/your-component"; <-- file would be _your-component.scss
 
 
 /*------------------------------------*\
     LAYOUTS
 \*------------------------------------*/
+
+//@import "layouts/your-layout"; <-- file would be _your-layout.scss
