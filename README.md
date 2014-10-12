@@ -31,7 +31,9 @@ SCSS Structure
 	
 - **components** - Add all your reusable component partials here and import in global.scss
 
-- **layout** - Add major layout partials here and import in global.scss
+- **layouts** - Add major layout partials here and import in global.scss
+
+- **mixins** - Add project specific mixins and import in global.scss
 
 - **vars** 
 	- **_metrics.scss** - All metric vars such as breakpoints, widths etc. live here
