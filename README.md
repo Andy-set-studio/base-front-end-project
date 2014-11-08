@@ -21,6 +21,7 @@ SCSS Structure
 
 - **mixins**
 	- **_font-size.scss** - Font size media query for generating REM unit font sizes and line-heights
+	- **_ie.scss** - IE / Legacy mixin for easily adding pesky fixes
 	- **_media-query.scss** - Human readable media queries
 	- **_opacity.scss** - Cross browser friendly opacity
 	- **_print.scss** - Simple print styles media query
