@@ -1,2 +1,10 @@
 
 *.codekit
+
+*.scss
+
+*.scssc
+
+src/scss/project/animations/._dummy.txt
+
+src/scss/project/helpers/._dummy.txt

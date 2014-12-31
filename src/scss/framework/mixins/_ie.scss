@@ -19,7 +19,8 @@
 	}
 	
 	// If more global "less than" version
-	@if($ie-version == "lt-ie10" or 
+	@if($ie-version == "lt-ie11" or
+		$ie-version == "lt-ie10" or 
 		$ie-version == "lt-ie9" or 
 		$ie-version == "lt-ie8") {
 			

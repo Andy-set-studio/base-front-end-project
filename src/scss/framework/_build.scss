@@ -9,6 +9,8 @@
 /*------------------------------------*\
     MIXINS
 \*------------------------------------*/
+@import "mixins/animate";
+@import "mixins/animation";
 @import "mixins/font-size";
 @import "mixins/ie";
 @import "mixins/media-query";

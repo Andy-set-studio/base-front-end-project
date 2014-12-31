@@ -32,6 +32,13 @@ body {
 
 
 /*------------------------------------*\
+    HELPERS
+\*------------------------------------*/
+
+//@import "helpers/your-helper"; <-- file would be _your-helper.scss
+
+
+/*------------------------------------*\
     COMPONENTS
 \*------------------------------------*/
 
@@ -43,3 +50,10 @@ body {
 \*------------------------------------*/
 
 //@import "layouts/your-layout"; <-- file would be _your-layout.scss
+
+
+/*------------------------------------*\
+    ANIMATIONS
+\*------------------------------------*/
+
+//@import "animations/your-animation"; <-- file would be _your-animation.scss
