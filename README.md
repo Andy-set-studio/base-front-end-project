@@ -20,6 +20,8 @@ SCSS Structure
 	- **_reset.scss** - Simple CSS reset/normalize
 
 - **mixins**
+	- **_animate.scss** - Media query that prefixes animation calls
+	- **_animation.scss** - Media query that prefixes animation definitions
 	- **_font-size.scss** - Font size media query for generating REM unit font sizes and line-heights
 	- **_ie.scss** - IE / Legacy mixin for easily adding pesky fixes
 	- **_media-query.scss** - Human readable media queries
@@ -29,8 +31,12 @@ SCSS Structure
 	
 
 **project**
+
+- **animations** - Add all your animations here and import in global.scss
 	
 - **components** - Add all your reusable component partials here and import in global.scss
+
+- **helpers** - Add all your reusable helpers here and import in global.scss
 
 - **layouts** - Add major layout partials here and import in global.scss
 
@@ -43,3 +49,5 @@ SCSS Structure
 	- **_generic.scss** - All generic vars that don't fit into the other groups live here
 	
 - **global.scss** - This is the file that compiles to global.css. This file should only feature global styles such as body, html and wrapper etc. This file also imports the framework, components and layouts.
+
+- **_shame.scss** - This is for shameful hacks. I'd recommend only using this file to hack where absolutely needed. Remember - every time you write a hack, a cute kitten dies.
