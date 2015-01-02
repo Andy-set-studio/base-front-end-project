@@ -32,7 +32,7 @@
 	}
 
 	@if($alias == "desk-wide") {
-		$calculated-breakpoint: $breakpoint--desk-wide;
+		$calculated-breakpoint: $breakpoint--desk--wide;
 	}
 	
 	@if($calculated-breakpoint != "") {
