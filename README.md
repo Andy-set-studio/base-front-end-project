@@ -28,6 +28,7 @@ SCSS Structure
 	- **_opacity.scss** - Cross browser friendly opacity
 	- **_print.scss** - Simple print styles media query
 	- **_vendor.scss** - Vendor prefixer
+	- **_word-wrap.scss** - Simple word-wrap css helper
 	
 
 **project**
