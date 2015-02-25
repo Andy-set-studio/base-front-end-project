@@ -66,35 +66,35 @@ body {
     MIXINS
 \*------------------------------------*/
 
-//@import "mixins/your-mixin"; <-- file would be _your-mixin.scss
+@import "mixins/*";
 
 
 /*------------------------------------*\
     HELPERS
 \*------------------------------------*/
 
-//@import "helpers/your-helper"; <-- file would be _your-helper.scss
+@import "helpers/*";
 
 
 /*------------------------------------*\
     COMPONENTS
 \*------------------------------------*/
 
-//@import "components/your-component"; <-- file would be _your-component.scss
+@import "components/*";
 
 
 /*------------------------------------*\
     LAYOUTS
 \*------------------------------------*/
 
-//@import "layouts/your-layout"; <-- file would be _your-layout.scss
+@import "layouts/*";
 
 
 /*------------------------------------*\
     ANIMATIONS
 \*------------------------------------*/
 
-//@import "animations/your-animation"; <-- file would be _your-animation.scss
+@import "animations/*";
 
 
 // Import the shame
