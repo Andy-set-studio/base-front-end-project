@@ -494,21 +494,56 @@ body {
     .wrapper {
       width: 1000px; } }
 
+.clear:after, .clear:before {
+  content: "";
+  clear: both;
+  display: block; }
+
+.is-hidden {
+  display: none; }
+
+.is-visible {
+  display: block !important; }
+
+.is-muted {
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5; }
+
+.is-hidden--text {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
+@media print {
+  .no-print {
+    display: none; } }
+
 /*------------------------------------*\
     MIXINS
 \*------------------------------------*/
+/* No files to import found in mixins/* */
 /*------------------------------------*\
     HELPERS
 \*------------------------------------*/
+/* No files to import found in helpers/* */
 /*------------------------------------*\
     COMPONENTS
 \*------------------------------------*/
+/* No files to import found in components/* */
 /*------------------------------------*\
     LAYOUTS
 \*------------------------------------*/
+/* No files to import found in layouts/* */
 /*------------------------------------*\
     ANIMATIONS
 \*------------------------------------*/
+/* No files to import found in animations/* */
 /*------------------------------------*\
     SHAME
     
