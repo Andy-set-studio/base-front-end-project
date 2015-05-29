@@ -1,0 +1,25 @@
+@mixin selection($background, $color, $isglobal: false) {
+
+	@if($isglobal) {
+		::-moz-selection { 
+			background: $background; 
+			color: $color;
+		}
+		
+		::selection { 
+			background: $background; 
+			color: $color;
+		}
+	}
+	@else {
+		&::-moz-selection { 
+			background: $background; 
+			color: $color;
+		}
+		
+		&::selection { 
+			background: $background; 
+			color: $color;
+		}
+	}
+}
