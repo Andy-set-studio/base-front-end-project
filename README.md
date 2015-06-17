@@ -20,8 +20,8 @@ SCSS Structure
 	- **_reset.scss** - Simple CSS reset/normalize
 
 - **mixins**
-	- **_animate.scss** - Media query that prefixes animation calls
-	- **_animation.scss** - Media query that prefixes animation definitions
+	- **_animate.scss** - Mixin that prefixes animation calls
+	- **_animation.scss** - Mixin that prefixes animation definitions
 	- **_font-size.scss** - Font size media query for generating REM unit font sizes and line-heights
 	- **_ie.scss** - IE / Legacy mixin for easily adding pesky fixes
 	- **_media-query.scss** - Human readable media queries
@@ -29,6 +29,11 @@ SCSS Structure
 	- **_print.scss** - Simple print styles media query
 	- **_vendor.scss** - Vendor prefixer
 	- **_word-wrap.scss** - Simple word-wrap css helper
+	- **_triangle.scss** - CSS triangles ftw
+	- **_hover.scss** - Useful hover wrapper
+	- **_selection.scss** - To help with pretty selections
+	- **_button.scss** - Base, useful button styles
+	- **_form-field.scss** - Base, useful form-field styles
 	
 
 **project**
