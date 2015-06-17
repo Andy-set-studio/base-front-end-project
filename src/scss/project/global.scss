@@ -66,35 +66,35 @@ body {
     MIXINS
 \*------------------------------------*/
 
-@import "mixins/*";
+//@import "mixins/mixin-name"; // Add a line for each mixin
 
 
 /*------------------------------------*\
     HELPERS
 \*------------------------------------*/
 
-@import "helpers/*";
+//@import "helpers/helper-name"; // Add a line for each helper
 
 
 /*------------------------------------*\
     COMPONENTS
 \*------------------------------------*/
 
-@import "components/*";
+//@import "components/component-name"; // Add a line for component
 
 
 /*------------------------------------*\
     LAYOUTS
 \*------------------------------------*/
 
-@import "layouts/*";
+//@import "layouts/layout-name"; // Add a line for layout
 
 
 /*------------------------------------*\
     ANIMATIONS
 \*------------------------------------*/
 
-@import "animations/*";
+//@import "animations/animation-name"; // Add a line for animation
 
 
 // Import the shame
