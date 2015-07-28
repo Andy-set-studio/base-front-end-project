@@ -7,6 +7,8 @@ Please only use as a base.
 
 [andy-bell.co.uk](http://andy-bell.co.uk)
 
+##This project is no longer maintained. Please check out the [evolved version](https://github.com/4ndeh/Front-End-Base-Project).
+
 SCSS Structure
 --------------
 
